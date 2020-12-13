@@ -1,0 +1,10 @@
+.env
+
+*.bak
+*.tmp
+*~
+.directory
+/mysql/*
+/app/media/files/events/*
+/app/media/files/gallery/*
+
