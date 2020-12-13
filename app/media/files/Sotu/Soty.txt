@@ -1,0 +1,499 @@
+<div id="port-hex" class="white-letters-inside padding-top72 padding-bottom72 col-md-12">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="text-center hexagon-elements-wrap overflow-hidden">
+        <div class="hexagon-elements-wrap-inner">
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="#">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/empty.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="/astellas">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/astellas_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.janssen.com/ru">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Janssen_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="https://biocad.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/BIOCAD_150_clear.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="https://www.astrazeneca.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/AstraZeneca_200.jpg" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.merck.ru/ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Merck_new_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="/bms">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/BMS_logo.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.takeda.com.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Takeda_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="/sandoz">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/sandoz_200.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="https://www.novartis.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/novartis_onco_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.gilead.com/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Gilead_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.veropharm.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/veropharm_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.generium.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Generium_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://smart-pharma.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/smart_pharma_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.aspenpharma.com/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/aspen_150.jpg" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.teva.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/teva.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="/bioline">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Bioline_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.sanofi.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Sanofi_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.amgen.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Amgen_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://eisai.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/logo_eisai.gif" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.pierre-fabre-russia.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/pierre_fabre_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.bayer.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/Bayer_Clear_200.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="#">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/empty.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.roche.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/ROCHE_150.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.msd.ru/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/MSD_150.JPG" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="http://www.alexion.com/">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/ALX.jpg" alt="" />
+                      </div>
+                    </div>
+                  </a>          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="inline-block single-hexagon-element" style="margin: 0px; padding: 0px;">
+            <div class="hexagon pull-left" style="height: 320px;">
+              <div class="hexagon-in1">
+                <div class="hexagon-in2">
+                  <a class="hover-effect" href="#">
+                    <div class="table-row">
+                      <div class="table-cell">
+                        <img src="images/partners/Nas/empty.png" alt="" />
+                      </div>
+                    </div>
+                  </a>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
