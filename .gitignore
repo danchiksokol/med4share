@@ -5,6 +5,7 @@
 *~
 .directory
 /mysql/*
+/app/media/photo/*
 /app/media/files/events/*
 /app/media/files/gallery/*
 
