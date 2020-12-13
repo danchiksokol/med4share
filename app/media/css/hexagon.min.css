@@ -1,0 +1,44 @@
+
+
+
+/*  Portfolio Hex  */
+#port-hex {overflow: hidden;}
+
+img.paralax-bg-effect {position: absolute; top: 0; left: 0; width: auto; max-width: none;}
+
+.white-letters-inside, .white-letters-inside h2 {color: #fff;}
+.hex-grid-wrap {display: inline-block; margin: 0 auto;}
+
+.flex-hex .hexagon {width: 100%;}
+.hexagon-elements-wrap {width: 100%;}
+.hexagon-elements-wrap-inner { padding: 36px 0;}
+.single-hex {padding: 32px 0;}
+.port-hex-wrap {width: 992px; margin: auto;}
+.hexagon {overflow: hidden; visibility: hidden; -webkit-transform: rotate(120deg); -moz-transform: rotate(120deg); -o-transform: rotate(120deg); transform: rotate(120deg); cursor: pointer; }
+.hexagon {width: 160px; height: 320px; margin: -90px 2px; }
+.hexagon-in1 { overflow: hidden; width: 100%; height: 100%; -webkit-transform: rotate(-60deg); -moz-transform: rotate(-60deg); -o-transform: rotate(-60deg); transform: rotate(-60deg);}
+.hexagon-in2 { width: 100%; height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    position: relative;
+    overflow: hidden;
+     background: url("/media/img/site/hexagon.png") no-repeat 50% 50%; position: relative;
+}
+
+.display-table {display: table; vertical-align: middle;}
+.table-row {display: table-row; vertical-align: middle;}
+.table-cell {display: table-cell; vertical-align: middle;}
+.inline-block {display: inline-block;}
+
+.hover-effect { position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 5; display: table; vertical-align: middle;   -webkit-transition: opacity 0.1s;  }
+.hover-effect img{display:inline; max-width: 140px; max-height: 140px;}
+
+.hexagon:hover .hover-effect {opacity: 0.9;}
+#port-hex .border-bottom-gray {border-bottom-color: #fff;}
+
+
