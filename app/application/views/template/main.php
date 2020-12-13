@@ -165,44 +165,120 @@
     <!-- main-container start -->
     <!-- ================ -->
     <section class="main-container">
+            <div class="col-sm-4 panel panel-default">
+                <div class="row">
+                    <div class="col-sm-4 text-primary">31 января</div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">15:00</div>
+                </div>
+                <div class="col-sm-8"></div>
+                <div class="row">
+                    <div class="col-sm-8" style="height: 30px;"></div>
+                    <div class="col-sm-8">Вирусы, бактерии и рак</div>
+                </div>
+                <div class="col-sm-8" style="height: 100px;"><!----></div>
+                <div class="item_lectures">
+                    <div class="lecturer-ava-block panel ">
+                        <div class="col-sm-4 panel panel-default">Фото лектора</div>
+                        <div class="col-sm-4 panel panel-default">ФИО лектора</div>
+                    </div>
+                </div>
+                <div class="col-sm-8" style="height: 50px;"><!----></div>
+                <div class="item_lectures">
+                    <div class="lecturer-ava-block panel ">
+                        <div class="col-sm-6 panel panel-default">невролгия</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 panel panel-default">
+                <div class="row">
+                    <div class="col-sm-4 text-primary">31 января</div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">15:00</div>
+                </div>
+                <div class="col-sm-8"></div>
+                <div class="row">
+                    <div class="col-sm-8" style="height: 30px;"></div>
+                    <div class="col-sm-8">Вирусы, бактерии и рак</div>
+                </div>
+                <div class="col-sm-8" style="height: 100px;"><!----></div>
+                <div class="item_lectures">
+                    <div class="lecturer-ava-block panel ">
+                        <div class="col-sm-4 panel panel-default">Фото лектора</div>
+                        <div class="col-sm-4 panel panel-default">ФИО лектора</div>
+                    </div>
+                </div>
+                <div class="col-sm-8" style="height: 50px;"><!----></div>
+                <div class="item_lectures">
+                    <div class="lecturer-ava-block panel ">
+                        <div class="col-sm-6 panel panel-default">невролгия</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 panel panel-default">
+                <div class="row">
+                    <div class="col-sm-4 text-primary">31 января</div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">15:00</div>
+                </div>
+                <div class="col-sm-8"></div>
+                <div class="row">
+                    <div class="col-sm-8" style="height: 30px;"></div>
+                    <div class="col-sm-8">Вирусы, бактерии и рак</div>
+                </div>
+                <div class="col-sm-8" style="height: 100px;"><!----></div>
+                <div class="item_lectures">
+                    <div class="lecturer-ava-block panel ">
+                        <div class="col-sm-4 panel panel-default">Фото лектора</div>
+                        <div class="col-sm-4 panel panel-default">ФИО лектора</div>
+                    </div>
+                </div>
+                <div class="col-sm-8" style="height: 50px;"><!----></div>
+                <div class="item_lectures">
+                    <div class="lecturer-ava-block panel ">
+                        <div class="col-sm-6 panel panel-default">невролгия</div>
+                    </div>
+                </div>
+            </div>
 
-            <? if( strlen($menu_left) > 0 && strlen($menu_right) > 0 ) { ?>
-                <div class="container">
-                    <div class="row">
-                        <?=$menu_left ?>
-                        <div class="main col-md-6">
-                            <?=$contentMenu ?>
-                        </div>
-                        <?=$menu_right?>
-                    </div>
-                </div>
-            <? } elseif( strlen($menu_left) > 0 ) { ?>
-                <div class="container">
-                    <div class="row">
-                        <?=$menu_left ?>
-                        <div class="main col-md-9">
-                            <?=$contentMenu ?>
-                        </div>
-                    </div>
-                </div>
-            <? } elseif( strlen($menu_right) > 0 ) { ?>
-                <div class="container">
-                    <div class="row">
-                        <div class="main col-md-9">
-                            <?=$contentMenu ?>
-                        </div>
-                        <?=$menu_right?>
-                    </div>
-                </div>
-            <?} else { ?>
-                <div class="container">
-                    <div class="row">
-                        <div class="main col-md-12">
-                            <?=$contentMenu ?>
-                        </div>
-                    </div>
-                </div>
-            <? } ?>
+
+        <!--            --><?// if( strlen($menu_left) > 0 && strlen($menu_right) > 0 ) { ?>
+<!--                <div class="container">-->
+<!--                    <div class="row">-->
+<!--                        --><?//=$menu_left ?>
+<!--                        <div class="main col-md-6">-->
+<!--                            --><?//=$contentMenu ?>
+<!--                        </div>-->
+<!--                        --><?//=$menu_right?>
+<!--                    </div>-->
+<!--                </div>-->
+<!--            --><?// } elseif( strlen($menu_left) > 0 ) { ?>
+<!--                <div class="container">-->
+<!--                    <div class="row">-->
+<!--                        --><?//=$menu_left ?>
+<!--                        <div class="main col-md-9">-->
+<!--                            --><?//=$contentMenu ?>
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            --><?// } elseif( strlen($menu_right) > 0 ) { ?>
+<!--                <div class="container">-->
+<!--                    <div class="row">-->
+<!--                        <div class="main col-md-9">-->
+<!--                            --><?//=$contentMenu ?>
+<!--                        </div>-->
+<!--                        --><?//=$menu_right?>
+<!--                    </div>-->
+<!--                </div>-->
+<!--            --><?//} else { ?>
+<!--                <div class="container">-->
+<!--                    <div class="row">-->
+<!--                        <div class="main col-md-12">-->
+<!--                            --><?//=$contentMenu ?>
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            --><?// } ?>
 
 
 
