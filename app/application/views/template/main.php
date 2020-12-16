@@ -248,7 +248,7 @@
                             <?//=View::factory('module/calendar_event');?>
                             <br />
                             <? if( $url == 'index' ) : ?>
-                                <?=View::factory('module/block/calendar_index')->set('blocks_name', 'calendar_index');?>
+<!--                                --><?//=View::factory('module/block/calendar_index')->set('blocks_name', 'calendar_index');?>
                             <? endif; ?>
                             <? if( $url == 'rheumatology' ) : ?>
                                 <?=View::factory('module/block/calendar_index')->set('blocks_name', 'calendar_index_rheumatology');?>
