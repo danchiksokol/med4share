@@ -5668,24 +5668,25 @@ ul.tweets li span {
 }
 
 .schedule_item {
+    border: 2px solid #666;
 	margin: 10px;
 	padding: 20px;
 }
 
 .schedule_item:hover {
- 	border: 1px solid #E96722;
+    border: 2px solid #FFA07A;
 	box-sizing: border-box;
 	margin-top: 10px;
 }
 
 .schedule_date {
+    font-size: 18px;
 	text-align: left;
-	font-weight: bold;
+    color: #333;
 }
 
 .schedule_time {
 	color: #333;
-	font-family: Roboto-Light;
 	font-size: 18px;
 	text-align: right;
 }
@@ -5731,4 +5732,9 @@ ul.tweets li span {
 	margin: 0px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.btn:hover {
+    border: 1px solid #FFA07A;
+    border-radius: 7%;
 }

@@ -167,49 +167,45 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-lg-12">
+            <div class="col-xs-12">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="row">
-                            <div class="col-md-11 schedule_item panel panel-default">
+                            <div class="col-xs-11 schedule_item panel panel-default">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-xs-12">
                                         <div class="row">
-                                            <div class="col-md-6 schedule_date text-primary">
+                                            <div class="col-xs-6 schedule_date">
                                                 31.12.2020
                                             </div>
-                                            <div class="col-md-6 schedule_time">
+                                            <div class="col-xs-6 schedule_time">
                                                 15:00 МСК
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_time"></div>
+                                            <div class="col-xs-12 schedule_indent_time"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
-                                            </div>
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
-                                            </div>
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                            <div class="col-xs-12 center-block">
+                                                <div class="row">
+                                                    <div class="col-xs-12 schedule_avatar">
+                                                        <img class="img_avatar"
+                                                             src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_text">
+                                            <div class="col-xs-12 schedule_indent_text">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_title">
+                                            <div class="col-xs-12 schedule_title">
                                                 Тема доклада или мероприятия
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_text">
+                                            <div class="col-xs-12 schedule_text">
                                                 Семейная клиника «Здоровье» в Королеве. Большой спектр услуг. Анализы и
                                                 обследование на
                                                 современном оборудовании с лучшими специалистами.
@@ -217,31 +213,30 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_avatar">
+                                            <div class="col-xs-12 schedule_indent_avatar">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                       id="flexCheckCheckedDisabled"
-                                                       checked disabled/>
-                                                <label class="form-check-label" for="flexCheckCheckedDisabled">НМО</label>
+                                            <div class="col-xs-6 schedule_type">
+                                                Нозология
                                             </div>
-                                            <div class="col-md-6 schedule_type panel panel-default">
+                                            <div class="col-xs-6 schedule_type panel panel-default">
                                                 Вебинар
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_avatar">
+                                            <div class="col-xs-6 schedule_type">
+                                                <b>с НМО</b>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6 schedule_type panel panel-default">
-                                                Нозология
+                                            <div class="col-xs-12 schedule_indent_avatar">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <button type="button" class="btn btn-secondary">Подробнее...</button>
+                                            <div class="col-xs-12 schedule_type">
+                                                <button type="button" class="btn btn-secondary schedule_button">Подробнее...</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -250,45 +245,41 @@
                     </div>
                     <div class="col-md-4">
                         <div class="row">
-                            <div class="col-md-11 schedule_item panel panel-default">
+                            <div class="col-xs-11 schedule_item panel panel-default">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-xs-12">
                                         <div class="row">
-                                            <div class="col-md-6 schedule_date text-primary">
+                                            <div class="col-xs-6 schedule_date">
                                                 31.12.2020
                                             </div>
-                                            <div class="col-md-6 schedule_time">
+                                            <div class="col-xs-6 schedule_time">
                                                 15:00 МСК
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_time"></div>
+                                            <div class="col-xs-12 schedule_indent_time"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
-                                            </div>
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
-                                            </div>
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                            <div class="col-xs-12 center-block">
+                                                <div class="row">
+                                                    <div class="col-xs-12 schedule_avatar">
+                                                        <img class="img_avatar"
+                                                             src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_text">
+                                            <div class="col-xs-12 schedule_indent_text">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_title">
+                                            <div class="col-xs-12 schedule_title">
                                                 Тема доклада или мероприятия
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_text">
+                                            <div class="col-xs-12 schedule_text">
                                                 Семейная клиника «Здоровье» в Королеве. Большой спектр услуг. Анализы и
                                                 обследование на
                                                 современном оборудовании с лучшими специалистами.
@@ -296,31 +287,30 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_avatar">
+                                            <div class="col-xs-12 schedule_indent_avatar">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                       id="flexCheckCheckedDisabled"
-                                                       checked disabled/>
-                                                <label class="form-check-label" for="flexCheckCheckedDisabled">НМО</label>
+                                            <div class="col-xs-6 schedule_type">
+                                                Нозология
                                             </div>
-                                            <div class="col-md-6 schedule_type panel panel-default">
+                                            <div class="col-xs-6 schedule_type panel panel-default">
                                                 Вебинар
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_avatar">
+                                            <div class="col-xs-6 schedule_type">
+                                                <b>с НМО</b>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6 schedule_type panel panel-default">
-                                                Нозология
+                                            <div class="col-xs-12 schedule_indent_avatar">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <button type="button" class="btn btn-secondary">Подробнее...</button>
+                                            <div class="col-xs-12 schedule_type">
+                                                <button type="button" class="btn btn-secondary schedule_button">Подробнее...</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -329,45 +319,41 @@
                     </div>
                     <div class="col-md-4">
                         <div class="row">
-                            <div class="col-md-11 schedule_item panel panel-default">
+                            <div class="col-xs-11 schedule_item panel panel-default">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-xs-12">
                                         <div class="row">
-                                            <div class="col-md-6 schedule_date text-primary">
+                                            <div class="col-xs-6 schedule_date">
                                                 31.12.2020
                                             </div>
-                                            <div class="col-md-6 schedule_time">
+                                            <div class="col-xs-6 schedule_time">
                                                 15:00 МСК
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_time"></div>
+                                            <div class="col-xs-12 schedule_indent_time"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
-                                            </div>
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
-                                            </div>
-                                            <div class="col-md-2 schedule_avatar">
-                                                <img class="img_avatar"
-                                                     src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                            <div class="col-xs-12 center-block">
+                                                <div class="row">
+                                                    <div class="col-xs-12 schedule_avatar">
+                                                        <img class="img_avatar"
+                                                             src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_text">
+                                            <div class="col-xs-12 schedule_indent_text">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_title">
+                                            <div class="col-xs-12 schedule_title">
                                                 Тема доклада или мероприятия
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_text">
+                                            <div class="col-xs-12 schedule_text">
                                                 Семейная клиника «Здоровье» в Королеве. Большой спектр услуг. Анализы и
                                                 обследование на
                                                 современном оборудовании с лучшими специалистами.
@@ -375,31 +361,30 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_avatar">
+                                            <div class="col-xs-12 schedule_indent_avatar">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                       id="flexCheckCheckedDisabled"
-                                                       checked disabled/>
-                                                <label class="form-check-label" for="flexCheckCheckedDisabled">НМО</label>
+                                            <div class="col-xs-6 schedule_type">
+                                                Нозология
                                             </div>
-                                            <div class="col-md-6 schedule_type panel panel-default">
+                                            <div class="col-xs-6 schedule_type panel panel-default">
                                                 Вебинар
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-12 schedule_indent_avatar">
+                                            <div class="col-xs-6 schedule_type">
+                                                <b>с НМО</b>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6 schedule_type panel panel-default">
-                                                Нозология
+                                            <div class="col-xs-12 schedule_indent_avatar">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <button type="button" class="btn btn-secondary">Подробнее...</button>
+                                            <div class="col-xs-12 schedule_type">
+                                                <button type="button" class="btn btn-secondary schedule_button">Подробнее...</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
