@@ -64,7 +64,8 @@
 <!-- JavaScript files placed at the end of the document so the pages load faster
 ================================================== -->
 <!-- Jquery and Bootstap core js files -->
-<script type="text/javascript" src="/media/plugins/jquery.min.js"></script>
+<!--<script type="text/javascript" src="/media/plugins/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="/media/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Modernizr javascript -->
@@ -99,6 +100,8 @@
 <!-- Fancybox Plugin -->
 <script type="text/javascript" src="/media/js/fancybox/jquery.fancybox.min.js"></script>
 
+<script type="text/javascript" src="/media/calendar/js/moment.js"></script>
+<script type="text/javascript" src="/media/calendar/js/jquery.eventCalendar.js"></script>
 <!-- Initialization of Plugins -->
 <script type="text/javascript" src="/media/js/template.js"></script>
 

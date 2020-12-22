@@ -1,5 +1,5 @@
 (function($){
-	
+
 	$(window).on('popstate', function() {
 		var anchor = location.hash || $("a[data-toggle=tab]").first().attr("href");
     	$('a[href=' + anchor + ']').tab('show');
@@ -23,6 +23,7 @@
 		if( $('#calendar-event').length ) {
 
 			var razdel = $('#calendar-event').attr('razdel');
+
 			var urlCalendar = 'ajax/event/index';
 			if( razdel == 'rheumatology' ) {
 				urlCalendar = 'ajax/event/rheumatology';
@@ -31,17 +32,16 @@
 				urlCalendar = 'ajax/event/neurology';
 			}
 
-			$("#calendar-event").zabuto_calendar({
-				language: "ru",
-				cell_border: true,
-				today: true,
-				ajax: {
-					url: urlCalendar,
-					modal: false
-				}
-			});
+			// $("#calendar-event").zabuto_calendar({
+			// 	language: "ru",
+			// 	cell_border: true,
+			// 	today: true,
+			// 	ajax: {
+			// 		url: urlCalendar,
+			// 		modal: false
+			// 	}
+			// });
 		}
-
 
 
 		if( $('#indexNews').length ) {
@@ -1631,6 +1631,43 @@
 			openEffect: 'none',
 			protect: true
 		});
+
+			var data = [
+				{ "date": "2020-12-21 10:15:20", "title": "Событие 1", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
+				{ "date": "2020-12-21 11:15:20", "title": "Событие 2", "description": "Какая-то конфа или еще что-то", "url": "" },
+				{ "date": "2020-12-21 12:15:20", "title": "Событие 3", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
+				{ "date": "2020-12-25 10:15:20", "title": "Событие 4", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
+			];
+			$('#eventCalendar').eventCalendar({
+				jsonData: data,
+				eventsjson: 'data.json',
+				jsonDateFormat: 'human',
+				startWeekOnMonday: false,
+				openEventInNewWindow: true,
+				dateFormat: 'DD-MM-YYYY',
+				showDescription: false,
+				locales: {
+					locale: "ru",
+					txt_noEvents: "Нет запланированных событий",
+					txt_SpecificEvents_prev: "",
+					txt_SpecificEvents_after: "события:",
+					txt_NextEvents: "Следующие события:",
+					txt_GoToEventUrl: "Смотреть",
+					moment: {
+						"months" : [ "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+							"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" ],
+						"monthsShort" : [ "Янв", "Фев", "Мар", "Апр", "Май", "Июн",
+							"Июл", "Авг", "Сен", "Окт", "Ноя", "Дек" ],
+						"weekdays" : [ "Воскресенье", "Понедельник","Вторник","Среда","Четверг",
+							"Пятница","Суббота" ],
+						"weekdaysShort" : [ "Вс","Пн","Вт","Ср","Чт",
+							"Пт","Сб" ],
+						"weekdaysMin" : [ "Вс","Пн","Вт","Ср","Чт",
+							"Пт","Сб" ]
+					}
+				}
+			});
+
 
 	}); // End document ready
 
