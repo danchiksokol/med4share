@@ -3372,13 +3372,36 @@ a.overlay.small i {
 	-ms-transition: none;
 	transition: none;
 }
-.navbar-default .navbar-nav > li > a:hover {
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	-ms-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+
+
+.nav > li > a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 3px;
+    background: #E96722;
+    transition: all .2s ease-in-out;
+    transform: scaleX(0);
 }
+
+.custom-menu.navbar .navbar-nav > li > a:focus,
+.custom-menu.navbar .navbar-nav > li > a:hover {
+    color: #E96722;
+}
+
+.custom-menu .nav > li > a:hover:after {
+    transform: scaleX(1);
+}
+
+/*.navbar-default .navbar-nav > li > a:hover {*/
+/*	-webkit-transition: all 0.2s ease-out;*/
+/*	-moz-transition: all 0.2s ease-out;*/
+/*	-o-transition: all 0.2s ease-out;*/
+/*	-ms-transition: all 0.2s ease-out;*/
+/*	transition: all 0.2s ease-out;*/
+/*}*/
 
 /* first level active menu items on hover/focus */
 .navbar-default .navbar-nav > .active > a,
@@ -3461,7 +3484,7 @@ a.overlay.small i {
 .dropdown-menu .menu > .active > a:hover,
 .dropdown-menu .menu > .active > a:focus {
 	background-color: #ffffff;
-	color: #e84c3d;
+	color: #E96722;
 	border-color: #f1f1f1;
 }
 

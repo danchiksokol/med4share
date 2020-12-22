@@ -12,7 +12,7 @@
 
         <!-- navbar start -->
         <!-- ================ -->
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default custom-menu" role="navigation">
             <div class="container-fluid">
 
                 <!-- Toggle get grouped for better mobile display -->
