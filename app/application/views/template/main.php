@@ -197,10 +197,244 @@
             <?} else { ?>
                 <div class="container">
                     <div class="row">
-                        <div class="main col-md-12">
-                            <?=$contentMenu ?>
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-xs-11 schedule_item panel panel-default">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_date">
+                                                            31.12.2020
+                                                        </div>
+                                                        <div class="col-xs-6 schedule_time">
+                                                            15:00 МСК
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_time"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 center-block">
+                                                            <div class="row">
+                                                                <div class="col-xs-4"></div>
+                                                                <div class="col-xs-4 schedule_avatar">
+                                                                    <img class="img_avatar"
+                                                                         src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                                                </div>
+                                                                <div class="col-xs-4"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_title">
+                                                            Тема доклада или мероприятия
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_text">
+                                                            Семейная клиника «Здоровье» в Королеве. Большой спектр услуг. Анализы и
+                                                            обследование на
+                                                            современном оборудовании с лучшими специалистами.
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_type">
+                                                            Нозология
+                                                        </div>
+                                                        <div class="col-xs-6 schedule_type panel panel-default">
+                                                            Вебинар
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_type">
+                                                            <b>с НМО</b>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_type">
+                                                            <button type="button" class="btn btn-secondary schedule_button">Подробнее...</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-xs-11 schedule_item panel panel-default">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_date">
+                                                            31.12.2020
+                                                        </div>
+                                                        <div class="col-xs-6 schedule_time">
+                                                            15:00 МСК
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_time"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 center-block">
+                                                            <div class="row">
+                                                                <div class="col-xs-4"></div>
+                                                                <div class="col-xs-4 schedule_avatar">
+                                                                    <img class="img_avatar"
+                                                                         src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                                                </div>
+                                                                <div class="col-xs-4"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_title">
+                                                            Тема доклада или мероприятия
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_text">
+                                                            Семейная клиника «Здоровье» в Королеве. Большой спектр услуг. Анализы и
+                                                            обследование на
+                                                            современном оборудовании с лучшими специалистами.
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_type">
+                                                            Нозология
+                                                        </div>
+                                                        <div class="col-xs-6 schedule_type panel panel-default">
+                                                            Вебинар
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_type">
+                                                            <b>с НМО</b>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_type">
+                                                            <button type="button" class="btn btn-secondary schedule_button">Подробнее...</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-xs-11 schedule_item panel panel-default">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_date">
+                                                            31.12.2020
+                                                        </div>
+                                                        <div class="col-xs-6 schedule_time">
+                                                            15:00 МСК
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_time"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 center-block">
+                                                            <div class="row">
+                                                                <div class="col-xs-4"></div>
+                                                                <div class="col-xs-4 schedule_avatar">
+                                                                    <img class="img_avatar"
+                                                                         src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
+                                                                </div>
+                                                                <div class="col-xs-4"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_title">
+                                                            Тема доклада или мероприятия
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_text">
+                                                            Семейная клиника «Здоровье» в Королеве. Большой спектр услуг. Анализы и
+                                                            обследование на
+                                                            современном оборудовании с лучшими специалистами.
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_type">
+                                                            Нозология
+                                                        </div>
+                                                        <div class="col-xs-6 schedule_type panel panel-default">
+                                                            Вебинар
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6 schedule_type">
+                                                            <b>с НМО</b>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_indent_avatar">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 schedule_type">
+                                                            <button type="button" class="btn btn-secondary schedule_button">Подробнее...</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+<!--                    <div class="row">-->
+<!--                        <div class="main col-md-12">-->
+<!--                            --><?//=$contentMenu ?>
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             <? } ?>
 
@@ -279,7 +513,7 @@
                        <p style="font-size: 12px">Сайт <a href="http://www.med4share.ru">www.med4share.ru</a> является частным информационным ресурсом. Сведения, содержащиеся на страницах сайта, могут не совпадать с мнениями отдельных специалистов и рекомендациями учреждений государственной, муниципальной или частной систем здравоохранения. Информация, размещенная на сайте, носит рекомендательный характер, не является прямым руководством к обследованию и лечению конкретного больного и не определяет действия для решения определенной клинической ситуации. Ответственность за принятие клинических решений несет лечащий врач. Авторы сайта сохраняют за собой право публиковать информацию о лекарственных препаратах и методах лечения, которые еще не одобрены в РФ. Посещение больными, их родственниками и близкими страниц, предназначенных для профессионалов, расценивается как их прямое волеизъявление на получение информации, адресованной специалистам в области медицины.</p>
                     </div>
                 </div>
-				<!-- 
+				<!--
                 <div class="col-sm-7 col-md-4 col-lg-3 col-lg-offset-1">
                     <div class="footer-content">
                         <h2>Links</h2>
@@ -310,7 +544,7 @@
 				-->
 				<div class="col-sm-2 col-md-2 col-lg-2">
                     <div class="footer-content">
-                         
+
 						<button type="submit" class="btn btn-white btn-sm" data-toggle="modal" data-target="#feedbackModal">Отзывы и пожелания</button>
                         <?= View::factory('module/feedback_modal'); ?>
                     </div>
@@ -327,7 +561,7 @@
     ->bind('site_razdel_id', $site_razdel_id )
     ->bind('subject_id', $subject_id)
     ->bind('controller', $controller)
-;*/ 
+;*/
 ?>
 <?=View::factory('module/site_razdel_panel')
     ->bind('subject_id', $subject_id)

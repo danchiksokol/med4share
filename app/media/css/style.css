@@ -24,11 +24,21 @@ about etc )
 
 /* 1 Typography
 ----------------------------------------------------------------------------- */
+
+@font-face {
+	font-family: 'Bebas Neue';
+	url(/media/fonts/ofont.ru_Bebas Neue.ttf) format('truetype'),
+
+
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
 	height: 100%;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Bebas Neue', sans-serif;
 	font-size: 15px;
 	line-height: 1.50;
 	color: #666666;
@@ -5688,4 +5698,76 @@ ul.tweets li span {
 .gallery a,
 .gallery a:hover {
 	color: #fff;
+}
+
+.schedule_item {
+    border: 2px solid #ddd;
+	margin: 10px;
+	padding: 20px;
+}
+
+.schedule_item:hover {
+    border: 2px solid #E96722;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+.schedule_date {
+    font-size: 18px;
+	text-align: left;
+    color: #333;
+}
+
+.schedule_time {
+	color: #333;
+	font-size: 18px;
+	text-align: right;
+}
+
+.schedule_title {
+	text-align: center;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px;
+}
+
+.schedule_text {
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+}
+
+.schedule_type {
+	text-align: center;
+}
+
+.schedule_indent_time {
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.schedule_indent_text {
+	margin: 0px;
+	padding: 0px;
+}
+.schedule_avatar {
+	/*width: 90px;*/
+	height: 90px;
+}
+
+.img_avatar {
+	border:1px solid #ddd;
+	border-radius: 30%;
+}
+
+.schedule_indent_avatar {
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.btn:hover {
+    border: 1px solid #E96722;
+    border-radius: 7%;
 }
