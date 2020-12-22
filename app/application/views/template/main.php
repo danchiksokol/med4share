@@ -188,10 +188,12 @@
                                         <div class="row">
                                             <div class="col-xs-12 center-block">
                                                 <div class="row">
-                                                    <div class="col-xs-12 schedule_avatar">
+                                                    <div class="col-xs-4"></div>
+                                                    <div class="col-xs-4 schedule_avatar">
                                                         <img class="img_avatar"
                                                              src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
                                                     </div>
+                                                    <div class="col-xs-4"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -262,10 +264,12 @@
                                         <div class="row">
                                             <div class="col-xs-12 center-block">
                                                 <div class="row">
-                                                    <div class="col-xs-12 schedule_avatar">
+                                                    <div class="col-xs-4"></div>
+                                                    <div class="col-xs-4 schedule_avatar">
                                                         <img class="img_avatar"
                                                              src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
                                                     </div>
+                                                    <div class="col-xs-4"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -336,10 +340,12 @@
                                         <div class="row">
                                             <div class="col-xs-12 center-block">
                                                 <div class="row">
-                                                    <div class="col-xs-12 schedule_avatar">
+                                                    <div class="col-xs-4"></div>
+                                                    <div class="col-xs-4 schedule_avatar">
                                                         <img class="img_avatar"
                                                              src="https://img.s256.dev/SabxTlFxmJUwiJU2YsKAsyxDroqMx84iUkUtb8zPh38/fit/100/0/sm/1/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC9tZWQuc3R1ZGlvLzEvU3FqY1hGMVA4VTdLTi1EdExkS214ejcwU0xYYUh3OWIuanBn.jpg">
                                                     </div>
+                                                    <div class="col-xs-4"></div>
                                                 </div>
                                             </div>
                                         </div>
