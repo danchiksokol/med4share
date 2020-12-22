@@ -38,6 +38,8 @@
     <link href="/media/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link type="text/css" href="/media/calendar_zabuto/zabuto_calendar.min.css" rel="stylesheet" media="screen" />
 	<link href="/media/css/hexagon.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/media/calendar/css/eventCalendar.css">
+    <link rel="stylesheet" href="/media/calendar/css/eventCalendar_theme_responsive.css">
 
     <!-- iDea core CSS file -->
     <link href="/media/css/style.css" rel="stylesheet">
@@ -244,6 +246,7 @@
                         </div>
                         <div class="col-md-6">
                             <h2>Календарь событий</h2>
+                            <div id="eventCalendar" style="width: 500px; margin: 50px auto;"></div>
                             <div id="calendar-event" razdel="<?=$url?>"></div>
                             <?//=View::factory('module/calendar_event');?>
                             <br />

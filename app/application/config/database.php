@@ -20,7 +20,7 @@ if ($_SERVER['HTTP_HOST'] == 'med4share.local') {
 				 *
 				 * Ports and sockets may be appended to the hostname.
 				 */
-				'hostname'   => '172.19.0.3',
+				'hostname'   => '172.19.0.2',
 				'database'   => 'med4share',
 				'username'   => 'root',//'admin.lamo8.ru',
 				'password'   => '123',//'RjavRA4KZ2hE2zAv',

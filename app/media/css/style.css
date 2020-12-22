@@ -24,11 +24,21 @@ about etc )
 
 /* 1 Typography
 ----------------------------------------------------------------------------- */
+
+@font-face {
+	font-family: 'Bebas Neue';
+	url(/media/fonts/ofont.ru_Bebas Neue.ttf) format('truetype'),
+
+
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
 	height: 100%;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Bebas Neue', sans-serif;
 	font-size: 15px;
 	line-height: 1.50;
 	color: #666666;
@@ -2647,7 +2657,7 @@ ul.pagination li > a:focus {
 
 /* Horizontal tabs version 2 */
 .tabs-style-2 .nav-tabs {
-	border-bottom: 1px solid #E96722;
+	border-bottom: 1px solid #666;
 }
 .tabs-style-2 .nav-tabs > li.active > a,
 .tabs-style-2 .nav-tabs > li.active > a:hover,
@@ -2655,8 +2665,8 @@ ul.pagination li > a:focus {
 .tabs-style-2 .nav-tabs > li > a:hover {
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border: 1px solid #E96722;
-	background-color: #E96722;
+	border: 1px solid #666;
+	background-color: #666;
 	color: #fff;
 }
 .tabs-style-2 .nav-tabs > li.active > a:after {
