@@ -298,7 +298,7 @@ Route::set('AdminExperts', 'admin/experts(/<action>(/<id>))')
         'action'     => 'experts'
     ));
 
-Route::set('AdminExperts', 'admin/photo(/<action>(/<id>))')
+Route::set('AdminPhoto', 'admin/photo(/<action>(/<id>))')
     ->defaults(array(
         'directory'  => 'Admin',
         'controller' => 'Photo',

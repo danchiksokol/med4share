@@ -2657,18 +2657,23 @@ ul.pagination li > a:focus {
 
 /* Horizontal tabs version 2 */
 .tabs-style-2 .nav-tabs {
-	border-bottom: 1px solid #666;
+	border-bottom: 1px solid #ddd;
 }
 .tabs-style-2 .nav-tabs > li.active > a,
-.tabs-style-2 .nav-tabs > li.active > a:hover,
-.tabs-style-2 .nav-tabs > li.active > a:focus,
-.tabs-style-2 .nav-tabs > li > a:hover {
+/*.tabs-style-2 .nav-tabs > li.active > a:hover,*/
+.tabs-style-2 .nav-tabs > li.active > a:focus {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	border: 1px solid #666;
 	background-color: #666;
 	color: #fff;
 }
+.tabs-style-2 .nav-tabs > li.active > a:hover,
+.tabs-style-2 .nav-tabs > li > a:hover {
+	border: 1px solid #E96722;
+	background-color: #E96722;
+}
+
 .tabs-style-2 .nav-tabs > li.active > a:after {
 	width: 0;
 	height: 0;
@@ -5710,6 +5715,7 @@ ul.tweets li span {
     border: 2px solid #E96722;
 	box-sizing: border-box;
 	margin-top: 10px;
+	color: #E96722;
 }
 
 .schedule_date {

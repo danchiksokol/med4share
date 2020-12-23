@@ -108,8 +108,9 @@
 					text-shadow: 2px 2px 2px #C1C1C1;*/
 				}
 			.eventCalendar-daysList li.today a {
-				color:#fff;
-				background:#708090;
+				color:#666;
+				border:solid 1px #708090;
+				/*background:#708090;*/
 			/*	box-shadow:inset 5px 5px 10px #777;
 				text-shadow: 2px 2px 2px #777;*/
 			}
