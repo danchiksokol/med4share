@@ -2819,7 +2819,7 @@ ul.pagination li > a:focus {
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
 	border: 1px solid #f3f3f3;
-	color: #e84c3d;
+	color: #E96722;
 	background-color: #fafafa;
 }
 .nav-pills.nav-stacked > li > a:after {
@@ -2838,13 +2838,13 @@ ul.pagination li > a:focus {
 	transition: all 0.2s ease-in-out;
 }
 .nav-pills > li.active > a:after {
-	color: #e84c3d;
+	color: #E96722;
 }
 .nav-pills > li.active > a:hover:after,
 .nav-pills > li.active > a:focus:after,
 .nav-pills > li > a:hover:after,
 .nav-pills > li > a:focus:after {
-	color: #e84c3d;
+	color: #E96722;
 	right: 10px;
 }
 .footer-content .nav-pills > li > a {
@@ -2888,7 +2888,7 @@ ul.pagination li > a:focus {
 }
 .light .footer-content .nav-pills > li.active > a:hover,
 .light .footer-content .nav-pills > li > a:hover {
-	color: #cd3c2e;
+	color: #E96722;
 }
 .light .footer-content .nav-pills.nav-stacked > li > a:after,
 .light .footer-content .nav-pills > li.active > a:after,
@@ -2942,7 +2942,7 @@ ul.pagination li > a:focus {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #e84c3d;
+	background-color: #E96722;
 	color: #ffffff;
 	position: relative;
 	text-decoration: none;

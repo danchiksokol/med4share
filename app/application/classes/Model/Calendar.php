@@ -22,10 +22,10 @@ class Model_Calendar extends ORM {
 	public function getMainPage( $month, $year, $razdel_id = 0 ) {
 
 		return $this
-			->where(DB::expr('MONTH(`date_begin`)'), '=', $month)
-			->where(DB::expr('MONTH(`date_end`)'), '=', $month)
-			->and_where(DB::expr('YEAR(`date_begin`)'), '=', $year)
-			->and_where(DB::expr('YEAR(`date_end`)'), '=', $year)
+//			->where(DB::expr('MONTH(`date_begin`)'), '=', $month)
+//			->where(DB::expr('MONTH(`date_end`)'), '=', $month)
+			->where(DB::expr('YEAR(`date_begin`)'), 'IN', array($year-1, $year))
+			->where(DB::expr('YEAR(`date_end`)'), 'IN', array($year-1, $year))
 			->and_where('razdel_id', '=', $razdel_id)
 			->and_where('active', '=', '1')
 			->order_by('date_begin', 'ASC')

@@ -1,3 +1,4 @@
+var urlCalendar;
 (function($){
 
 	$(window).on('popstate', function() {
@@ -31,6 +32,8 @@
 			else if( razdel == 'neurology' ) {
 				urlCalendar = 'ajax/event/neurology';
 			}
+
+			setUrlCalendar(urlCalendar);
 
 			// $("#calendar-event").zabuto_calendar({
 			// 	language: "ru",
@@ -1635,58 +1638,14 @@
 		var today = new Date();
 		var year = today.getFullYear();
 		var month = today.getMonth()+1;
-		var dates = {year: year, month: (month)};
+		var dates = {year: year, month: month};
+		getCalendarEvents(dates);
 		// var data = [
 		// 	{ "date": "2020-12-21 10:15:20", "title": "Событие 1", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
 		// 	{ "date": "2020-12-21 11:15:20", "title": "Событие 2", "description": "Какая-то конфа или еще что-то", "url": "" },
 		// 	{ "date": "2020-12-21 12:15:20", "title": "Событие 3", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
 		// 	{ "date": "2020-12-25 10:15:20", "title": "Событие 4", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
 		// ];
-		$.ajax({
-			type: 'GET',
-			url: urlCalendar,
-			data: dates,
-			dataType: 'json'
-		}).done(function(response) {
-			var events = [];
-			$.each(response.data, function (k, v) {
-				events.push(response.data[k]);
-			});
-			drawCalendar(events);
-		});
-
-		function drawCalendar(data) {
-			$('#eventCalendar').eventCalendar({
-				jsonData: data,
-				eventsjson: 'data.json',
-				jsonDateFormat: 'human',
-				startWeekOnMonday: true,
-				openEventInNewWindow: false,
-				dateFormat: 'DD-MM-YYYY',
-				showDescription: false,
-				locales: {
-					locale: "ru",
-					txt_noEvents: "Нет запланированных событий",
-					txt_SpecificEvents_prev: "",
-					txt_SpecificEvents_after: "события:",
-					txt_NextEvents: "Следующие события:",
-					txt_GoToEventUrl: "Смотреть",
-					moment: {
-						"months" : [ "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-							"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" ],
-						"monthsShort" : [ "Янв", "Фев", "Мар", "Апр", "Май", "Июн",
-							"Июл", "Авг", "Сен", "Окт", "Ноя", "Дек" ],
-						"weekdays" : [ "Воскресенье", "Понедельник","Вторник","Среда","Четверг",
-							"Пятница","Суббота" ],
-						"weekdaysShort" : [ "Вс","Пн","Вт","Ср","Чт",
-							"Пт","Сб" ],
-						"weekdaysMin" : [ "Вс","Пн","Вт","Ср","Чт",
-							"Пт","Сб" ]
-					}
-				}
-			});
-		};
-
 
 	}); // End document ready
 
@@ -1869,6 +1828,57 @@ function getIndexPageNews( pageNum ) {
 		success: function(data){
 
 			$('#indexNews').html(data);
+		}
+	});
+}
+
+function setUrlCalendar(url) {
+	urlCalendar = url;
+}
+
+function getCalendarEvents(dates) {
+	$.ajax({
+		type: 'GET',
+		url: urlCalendar,
+		data: dates,
+		dataType: 'json'
+	}).done(function(response) {
+		var events = [];
+		$.each(response.data, function (k, v) {
+			events.push(response.data[k]);
+		});
+		drawCalendar(events);
+	});
+}
+
+function drawCalendar(data) {
+	$('#eventCalendar').eventCalendar({
+		jsonData: data,
+		eventsjson: 'data.json',
+		jsonDateFormat: 'human',
+		startWeekOnMonday: true,
+		openEventInNewWindow: false,
+		dateFormat: 'DD-MM-YYYY',
+		showDescription: false,
+		locales: {
+			locale: "ru",
+			txt_noEvents: "Нет запланированных событий",
+			txt_SpecificEvents_prev: "",
+			txt_SpecificEvents_after: "события:",
+			txt_NextEvents: "Следующие события:",
+			txt_GoToEventUrl: "Смотреть",
+			moment: {
+				"months" : [ "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+					"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" ],
+				"monthsShort" : [ "Янв", "Фев", "Мар", "Апр", "Май", "Июн",
+					"Июл", "Авг", "Сен", "Окт", "Ноя", "Дек" ],
+				"weekdays" : [ "Воскресенье", "Понедельник","Вторник","Среда","Четверг",
+					"Пятница","Суббота" ],
+				"weekdaysShort" : [ "Вс","Пн","Вт","Ср","Чт",
+					"Пт","Сб" ],
+				"weekdaysMin" : [ "Вс","Пн","Вт","Ср","Чт",
+					"Пт","Сб" ]
+			}
 		}
 	});
 }
