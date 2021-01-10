@@ -15,6 +15,9 @@ class Controller_User_User extends Controller_Template_Main {
 
 	public function action_login()
 	{
+//        if(Auth::instance()->force_login('admin')) {
+//            $this->redirect('/admin');
+//        }
         // Если юзер уже авторизирован
         if (Auth::instance()->logged_in())
         {

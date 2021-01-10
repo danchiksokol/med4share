@@ -163,7 +163,7 @@ class Controller_Ajax_Event extends Controller_Ajax
 
         $data = ORM::factory('Calendar')->getMainPage($month, $year);
 
-        $dd = array();
+        $dd = [];
         $dateArray = array(); // массив с датами
         $k = 0;
 
@@ -171,6 +171,13 @@ class Controller_Ajax_Event extends Controller_Ajax
             // Ищем интервал между датами
             $dateBegin = new DateTime($val->date_begin);
             $dateEnd = new DateTime($val->date_end);
+            $eventDate = $val->event_time;
+            if ($eventDate) {
+                $eventDate = ' '.$eventDate;
+            } else {
+                $eventDate = ' 00:00:00';
+            }
+
 
             if( $dateBegin < $dateEnd ) // Событие не одного дня
             {
@@ -188,12 +195,12 @@ class Controller_Ajax_Event extends Controller_Ajax
                     }
 
 
-                    $dd[ $dateBegin->format('d-m-Y') ] = array(
+                    $dd[ $dateBegin->format('d-m-Y') ] = [
                         'event_title' => $event_title,
                         'url'   => $url,
                         'badge' => (boolean) $dd[ $dateBegin->format('d-m-Y') ]['badge'] or $val->badge,
-                        'date'  => $dateBegin->format('Y-m-d')
-                    );
+                        'date'  => $dateBegin->format('Y-m-d').$eventDate
+                    ];
                     
                     //echo $dateBegin->format('d-m-Y').' '.$val->event_title . "\n";
                     $dateBegin->modify('+1 day');
@@ -215,7 +222,7 @@ class Controller_Ajax_Event extends Controller_Ajax
                     'event_title' => $event_title,
                     'url'   => $url,
                     'badge' => (boolean) $dd[ $dateBegin->format('d-m-Y') ]['badge'] or $val->badge,
-                    'date'  => $dateBegin->format('Y-m-d')
+                    'date'  => $dateBegin->format('Y-m-d').$eventDate
                 );
             }
 
@@ -225,9 +232,10 @@ class Controller_Ajax_Event extends Controller_Ajax
         foreach( $dd as $val ) {
             $this->data[] = array(
                 'date' => $val['date'],
-                'badge' => $val['badge'],//$val->badge, // отмечать знаком
+//                'badge' => $val['badge'],//$val->badge, // отмечать знаком
                 'title' => $val['event_title'],
-                'a' => '/calendar/'.$val['url']
+                'description' => '',
+                'url' => '/calendar/'.$val['url']
             );
         }
         return;

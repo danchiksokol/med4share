@@ -11,12 +11,12 @@
             <div class="well">
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label>Заголовок события</label>
                         <input type="text" class="form-control mandatory" name="event_title" placeholder="Заголовок" />
                     </div><!--/span-->
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="input-append date" id="date-change" data-date="<?=date('d-m-Y');?>">
                             <label>Дата начала события</label>
                             <div class="input-group" data-datepicker="true">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="input-append date" id="date-change" data-date="<?=date('d-m-Y');?>">
                             <label>Дата окончания события</label>
                             <div class="input-group" data-datepicker="true">
@@ -34,6 +34,10 @@
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label>Время мероприятия</label>
+                        <input type="time" class="form-control mandatory" name="event_time" value="">
                     </div>
                 </div>
                 <br />

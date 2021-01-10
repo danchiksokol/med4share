@@ -18,6 +18,7 @@
         <th>Название события</th>
         <th>Дата начала события</th>
         <th>Дата окончания события</th>
+        <th>Время события</th>
         <th>Имя события</th>
         <th style="width: 100px">Отметка</th>
         <th style="width: 100px">Активна</th>
@@ -32,6 +33,7 @@
         <td class="event_name"><?=$val->name;?></td>
         <td class="event_date_begin"><?=date('d.m.Y', strtotime($val->date_begin));?></td>
         <td class="event_date_end"><?=date('d.m.Y', strtotime($val->date_end));?></td>
+        <td class="event_time"><?=$val->event_time;?></td>
         <td class="event_title"><?=$val->event_title;?></td>
         <td><?=$val->badge == 1 ? 'Да' : 'Нет';?></td>
         <td><? if($val->active) { ?> <button class="btn btn-xs btn-success event_active" type="button">Активна</button>

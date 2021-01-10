@@ -1632,18 +1632,36 @@
 			protect: true
 		});
 
-			var data = [
-				{ "date": "2020-12-21 10:15:20", "title": "Событие 1", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
-				{ "date": "2020-12-21 11:15:20", "title": "Событие 2", "description": "Какая-то конфа или еще что-то", "url": "" },
-				{ "date": "2020-12-21 12:15:20", "title": "Событие 3", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
-				{ "date": "2020-12-25 10:15:20", "title": "Событие 4", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
-			];
+		var today = new Date();
+		var year = today.getFullYear();
+		var month = today.getMonth()+1;
+		var dates = {year: year, month: (month)};
+		// var data = [
+		// 	{ "date": "2020-12-21 10:15:20", "title": "Событие 1", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
+		// 	{ "date": "2020-12-21 11:15:20", "title": "Событие 2", "description": "Какая-то конфа или еще что-то", "url": "" },
+		// 	{ "date": "2020-12-21 12:15:20", "title": "Событие 3", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
+		// 	{ "date": "2020-12-25 10:15:20", "title": "Событие 4", "description": "Какая-то конфа или еще что-то", "url": "http://www.test.com/" },
+		// ];
+		$.ajax({
+			type: 'GET',
+			url: urlCalendar,
+			data: dates,
+			dataType: 'json'
+		}).done(function(response) {
+			var events = [];
+			$.each(response.data, function (k, v) {
+				events.push(response.data[k]);
+			});
+			drawCalendar(events);
+		});
+
+		function drawCalendar(data) {
 			$('#eventCalendar').eventCalendar({
 				jsonData: data,
 				eventsjson: 'data.json',
 				jsonDateFormat: 'human',
-				startWeekOnMonday: false,
-				openEventInNewWindow: true,
+				startWeekOnMonday: true,
+				openEventInNewWindow: false,
 				dateFormat: 'DD-MM-YYYY',
 				showDescription: false,
 				locales: {
@@ -1667,6 +1685,7 @@
 					}
 				}
 			});
+		};
 
 
 	}); // End document ready
