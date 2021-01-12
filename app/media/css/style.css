@@ -2546,7 +2546,7 @@ ul.pagination li > a:focus {
 	color: #FFFFFF;
 }
 
-.breadcrumb > li > a > active {
+.breadcrumb > .active {
 	color: #FFFFFF;
 }
 
