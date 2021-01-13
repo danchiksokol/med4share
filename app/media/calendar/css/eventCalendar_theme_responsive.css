@@ -193,7 +193,7 @@
 		.eventCalendar-list li .eventCalendar-eventTitle {
 			display:block;
 			clear:both;
-            font-size:150%;
+            /*font-size:150%;*/
 			text-decoration:none;
 		}
 			.eventCalendar-list li a.eventCalendar-eventTitle {
