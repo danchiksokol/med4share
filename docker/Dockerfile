@@ -30,6 +30,11 @@ RUN docker-php-ext-install opcache \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get autoremove -y
 
+RUN pecl install xdebug-2.5.5 \
+    && docker-php-ext-enable xdebug \
+
+RUN echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20131226/xdebug.so" >> /usr/local/etc/php/php.ini;
+RUN echo "xdebug.remote_enable=1" >> /usr/local/etc/php/conf.d/xdebug.ini;
 RUN echo 'date.timezone = "UTC"' >> /usr/local/etc/php/php.ini
 RUN echo 'opcache.max_accelerated_files = 20000' >> /usr/local/etc/php/conf.d/docker-php-ext-opcache.ini
 
