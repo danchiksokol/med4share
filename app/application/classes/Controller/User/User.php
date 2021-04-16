@@ -4,9 +4,9 @@ class Controller_User_User extends Controller_Template_Main {
 
     public function action_index() {
 
-        if( ! Auth::instance()->logged_in('login')) {
-            $this->redirect('index');
-        }
+//        if( ! Auth::instance()->logged_in('login')) {
+//            $this->redirect('index');
+//        }
 
         //$data = Auth::instance()->get_user();
         $this->template->breadcrumb = array('Ваш профиль');
