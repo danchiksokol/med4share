@@ -42,9 +42,9 @@ if ($_SERVER['HTTP_HOST'] == 'med4share.local') {
 				 * string   password    database password
 				 * boolean  persistent  use persistent connections?
 				 */
-				'dsn'        => 'mysql:host=localhost;dbname=k',
+				'dsn'        => 'mysql:host=db;dbname=med4share',
 				'username'   => 'root',
-				'password'   => 'root',
+				'password'   => '123',
 				'persistent' => FALSE,
 			),
 			/**

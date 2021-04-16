@@ -298,6 +298,13 @@ Route::set('AdminExperts', 'admin/experts(/<action>(/<id>))')
         'action'     => 'experts'
     ));
 
+Route::set('AdminExpertsf', 'admin/expertsf(/<action>(/<id>))')
+    ->defaults(array(
+        'directory'  => 'Admin',
+        'controller' => 'Expertsf',
+        'action'     => 'expertsf'
+    ));
+
 Route::set('AdminPhoto', 'admin/photo(/<action>(/<id>))')
     ->defaults(array(
         'directory'  => 'Admin',
@@ -593,8 +600,26 @@ Route::set('ExpertsOnly', 'experts/<expert_url>',
     ->defaults(array(
         'controller' => 'Experts',
         'action'	 => 'experts_only'
-    ));   
+    ));
 
+
+Route::set('Expertsf', 'expertsf(/<letter>)',
+    array('letter'=> '[a-zA-Z]')
+)
+    ->defaults(array( // application/classes/controller/login.php
+        'controller' => 'Expertsf',
+        'action'     => 'index'
+    ));
+
+
+
+Route::set('ExpertsfOnly', 'expertsf/<expert_url>',
+    array('expert_url'=> '[a-zA-Z0-9_-]+')
+)
+    ->defaults(array(
+        'controller' => 'Expertsf',
+        'action'	 => 'expertsf_only'
+    ));
 
 
 Route::set('sponsory', 'sponsory(/<action>(/<value>))')

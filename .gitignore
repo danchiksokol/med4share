@@ -1,11 +1,14 @@
-.env
-
 *.bak
 *.tmp
 *~
 .directory
+.idea
+/app/.idea
 /mysql/*
+/docker/med4share.sql
 /app/media/photo/*
 /app/media/files/events/*
 /app/media/files/gallery/*
-
+/app/application/logs/*
+/app/application/calendar.html
+/app/application/test2.html

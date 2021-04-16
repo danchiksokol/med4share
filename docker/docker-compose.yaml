@@ -1,4 +1,3 @@
-
 version: '3'
 services:
   site:
@@ -14,12 +13,9 @@ services:
       - 80:80
     links:
       - db
+    environment:
+      XDEBUG_CONFIG: ${XDEBUG_CONFIG}
     restart: always
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
   db:
     image: mysql:8.0.21
     restart: always
