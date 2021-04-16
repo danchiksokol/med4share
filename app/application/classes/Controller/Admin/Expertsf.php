@@ -11,7 +11,7 @@ class Controller_Admin_Expertsf extends Controller_Admin_Admin {
 	public function after()
 	{
 		
-		$this->template->breadcrumb = array_merge( array('admin/expertsf' => 'Наши Эксперты'), $this->template->breadcrumb);
+		$this->template->breadcrumb = array_merge( array('admin/expertsf' => 'Иностранные Эксперты'), $this->template->breadcrumb);
 		parent::after();
 	}
 		
