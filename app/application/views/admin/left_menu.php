@@ -7,11 +7,8 @@
     array('name' => 'Календарь событий',    'link' => 'calendar',       'icon' => 'calendar',   'roles' => array('admin')),
     array('name' => 'Новости',              'link' => 'news_list',      'icon' => 'globe',      'roles' => array('admin')),
     array('name' => 'Теги новостей',        'link' => 'newstags',      'icon' => 'tags',      'roles' => array('admin')),
-    
     array('name' => 'Наши Эксперты',        'link' => 'experts',      'icon' => 'paperclip',      'roles' => array('admin')),
-    
-    
-
+    array('name' => 'Иностранные Эксперты', 'link' => 'expertsf',      'icon' => 'paperclip',      'roles' => array('admin')),
     array('name' => 'Комментарии',           'link' => 'comments',       'icon' => 'comment',    'roles' => array('admin', 'comment') ),
 
     array('name' => 'Отзывы и пожелания',   'link' => 'feedback',       'icon' => 'info-sign',    'roles' => array('admin') ),

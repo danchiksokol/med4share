@@ -20,7 +20,7 @@ class Controller_Admin_Expertsf extends Controller_Admin_Admin {
 	
 	}
 	
-	public function action_experts()
+	public function action_expertsf()
 	{
 		$data = ORM::factory('Expertsf')
             ->order_by('familia', 'ASC')
