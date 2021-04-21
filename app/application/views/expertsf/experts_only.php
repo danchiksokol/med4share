@@ -1,5 +1,5 @@
 <div class="main col-md-12">
-<h2><?=$db_data['familia'].' '.$db_data['name'].' '.$db_data['otchestvo']?></h2>
+<h2><?=$db_data['name'].' '.$db_data['familia'].' '.$db_data['otchestvo']?></h2>
 
 <div class="row">
 
