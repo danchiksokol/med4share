@@ -137,7 +137,7 @@
 			<div class="row">
 			    <div class="col-md-12">
 			    	<a name="<?=mb_substr($val->familia, 0, 1, 'utf-8');?>"></a>
-			        <div><a href="<?=$url_expert_only?>/<?=$val->url?>"><strong><?=$val->familia.' '.$val->name.' '.$val->otchestvo?></strong></a></div>
+			        <div><a href="<?=$url_expert_only?>/<?=$val->url?>"><strong><?=$val->name.' '.$val->familia.' '.$val->otchestvo?></strong></a></div>
 					<br />
 			    </div>
 			    <div class="col-md-3">
